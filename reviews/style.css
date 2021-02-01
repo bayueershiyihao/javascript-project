@@ -1,0 +1,98 @@
+@import "reset.css";
+
+body {
+  background-color: #f4f8fe;
+}
+
+main {
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title h2 {
+  font-size: 2.7rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.underline {
+  margin-top: 10px;
+  border-top: 5px solid #5dade2;
+  width: 40%;
+}
+
+.review {
+  margin-top: 80px;
+  background-color: white;
+  padding: 20px 70px 30px;
+  display: grid;
+  place-items: center;
+  width: 40%;
+}
+
+.img-container img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+#author {
+  font-size: 1.3rem;
+  font-weight: 900;
+  letter-spacing: 1.8px;
+  margin: 20px 0px 10px;
+}
+
+#job {
+  color: #85c1e9;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#info {
+  color: #979a9a;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  border: none;
+  text-decoration: none;
+  outline: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+i {
+  color: #5dade2;
+  font-size: 1.3rem;
+  margin: 0px 7px 13px;
+}
+
+.random-btn {
+  padding: 7px 12px;
+  background: #ebf5fb;
+  border-radius: 10px;
+  border: 2px solid #5dade2;
+  color: #5dade2;
+  cursor: pointer;
+  outline: 0;
+}
