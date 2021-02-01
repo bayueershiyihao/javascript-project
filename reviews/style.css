@@ -44,6 +44,7 @@ main {
 
 .title h2:nth-child(3) {
   animation-delay: 0.39s;
+  margin-right: 10px;
 }
 
 .title h2:nth-child(4) {
