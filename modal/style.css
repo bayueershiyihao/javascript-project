@@ -1,0 +1,76 @@
+@import "reset.css";
+body {
+  background: url("./hero.jpeg") center/cover;
+  height: 100vh;
+}
+
+.bg-color {
+  background: rgba(73, 166, 233, 0.5);
+  transition: all 0.3s linear;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: white;
+  width: 620px;
+  height: 265px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  letter-spacing: 3px;
+}
+
+.modal-underlay {
+  display: grid;
+  place-items: center;
+}
+
+.show_wing {
+  display: none;
+}
+
+h1 {
+  font-size: 3.1rem;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 45px;
+}
+.btn {
+  background: #48a6e8;
+  color: white;
+  border: 2px solid #48a6e8;
+  outline: 0;
+  padding: 8px 15px;
+  font-size: 0.8rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+button:hover {
+  background: white;
+  color: #48a6e8;
+  border: 2px solid #48a6e8;
+  cursor: pointer;
+  transition: all 0.8s linear;
+}
+
+.modal-overlay {
+  z-index: -1;
+}
+
+h5 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.show_wing {
+  display: none;
+}
