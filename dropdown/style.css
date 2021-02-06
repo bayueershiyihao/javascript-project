@@ -1,0 +1,96 @@
+@import "reset.css";
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #f4f7fa;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+form {
+  background-color: white;
+  width: 300px;
+  height: 200px;
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.1);
+}
+
+form h1 {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.dropdown {
+  width: 80%;
+  position: relative;
+}
+
+button {
+  width: 100%;
+  text-align: left;
+  background: white;
+  padding: 10px;
+}
+
+.dropdown-toggle {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+  opacity: 0.4;
+  font-size: 12px;
+}
+
+.dropdown-menu {
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.3s linear;
+}
+
+.dropdown-option {
+  border: none;
+  font-size: 11px;
+}
+
+.next-button {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  text-align: center;
+  border-radius: 7px;
+  border: none;
+  width: 80%;
+}
+
+.dropdown-option:hover {
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+.show {
+  padding: 8px 0;
+  max-height: 280px;
+  border-color: rgba(224, 226, 231, 0.5);
+  box-shadow: 0 4px 9px 0 rgba(63, 65, 80, 0.1);
+}
+
+.selected {
+  background: black;
+}
+
+.selected-color {
+  color: black;
+  opacity: 1;
+}
