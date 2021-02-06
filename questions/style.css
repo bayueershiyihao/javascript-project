@@ -1,0 +1,83 @@
+@import "reset.css";
+
+body {
+  background-color: #f1f5f8;
+}
+
+.container {
+  height: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 50px;
+}
+
+.header-title {
+  margin: 4rem 0px 4rem;
+  font-size: 2.5rem;
+  color: #c59d5f;
+  font-family: cursive;
+}
+
+.center-questions {
+  width: 100%;
+}
+
+.questions {
+  background-color: white;
+  padding: 20px 25px 8px;
+  margin: 0px 0px 35px;
+  border-radius: 9px;
+}
+
+.question-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  background: transparent;
+  color: #c59d5f;
+  font-size: 1.6rem;
+}
+
+.question-title h3 {
+  font-size: 1.1em;
+  text-transform: capitalize;
+  font-weight: 350;
+  letter-spacing: 2.3px;
+  color: #122a42;
+}
+
+.question-text {
+  height: 4rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 20px 0px 0px;
+  display: none;
+}
+
+.minus-btn {
+  display: none;
+}
+
+.question-text p {
+  margin-top: 20px;
+  color: #67819b;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.show-text .question-text {
+  display: block;
+}
+
+.show-text .plus-btn {
+  display: none;
+}
+
+.show-text .minus-btn {
+  display: block;
+}
